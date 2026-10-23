@@ -108,6 +108,17 @@ def main():
         # Wordmark only.
         write(f"warm-terminal-wordmark{sfx}.svg", svg(ww, 16 * UNIT, paint(theme, "", "", word_path(0, 16 * UNIT))))
 
+    # Banner: the dark lockup on a surface tile, for pages that are always white (GitHub README).
+    # A 1px line keeps the edge visible where the host page is dark too.
+    px, py = 2 * CELL, 1.5 * CELL
+    bw, bh = side + CELL + word_width() + 2 * px, side + 2 * py
+    tx = px + side + CELL
+    tile = (f'<rect width="{fmt(bw)}" height="{fmt(bh)}" fill="#141413"/>'
+            f'<rect x="0.5" y="0.5" width="{fmt(bw - 1)}" height="{fmt(bh - 1)}" fill="none" '
+            f'stroke="#faf9f5" stroke-opacity="0.16"/>')
+    write("warm-terminal-banner.svg",
+          svg(bw, bh, tile + paint("dark", *mark_paths("dark", px, py), word_path(tx, py + 2 * CELL + GAP))))
+
 
 if __name__ == "__main__":
     main()

@@ -27,6 +27,7 @@ one accent for the current thing.
 | `warm-terminal-horizontal.svg` · `-dark.svg` | Default lockup: headers, README, docs |
 | `warm-terminal-stacked.svg` · `-dark.svg` | Square-ish spaces: covers, social cards |
 | `warm-terminal-wordmark.svg` · `-dark.svg` | Where the symbol already appears nearby |
+| `warm-terminal-banner.svg` | Dark lockup on a `#141413` tile with a 1px line: always-white pages such as a GitHub README |
 | `variants/` | One-colour black and white (SVG + PNG), square avatar master |
 | `web/` | `favicon.ico`, `favicon.svg`, PNG icons, `site.webmanifest`, `head-snippet.html` |
 | `presentation.html` · `slides/` | Presentation board with mockups |

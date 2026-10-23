@@ -1,7 +1,4 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="logo/warm-terminal-horizontal-dark.svg">
-  <img src="logo/warm-terminal-horizontal-dark.svg" alt="Warm Terminal logo: a 3×3 grid of square cells, the cursor cell in orange and the next cell still empty, beside the wordmark warm terminal" width="360">
-</picture>
+<img src="logo/warm-terminal-banner.svg" alt="Warm Terminal logo: a 3×3 grid of square cells, the cursor cell in orange and the next cell still empty, beside the wordmark warm terminal, on a warm near-black banner" width="560">
 
 # Warm Terminal
 
