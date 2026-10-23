@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="logo/warm-terminal-horizontal-dark.svg">
-  <img src="logo/warm-terminal-horizontal.svg" alt="Warm Terminal logo: a 3×3 grid of square cells, the cursor cell in orange and the next cell still empty, beside the wordmark warm terminal" width="360">
+  <img src="logo/warm-terminal-horizontal-dark.svg" alt="Warm Terminal logo: a 3×3 grid of square cells, the cursor cell in orange and the next cell still empty, beside the wordmark warm terminal" width="360">
 </picture>
 
 # Warm Terminal
@@ -29,10 +29,10 @@ a shop, a docs site, a portfolio, a dashboard or a tool.
 
 ## What's here
 
-| File | Contents |
-|---|---|
-| [`DESIGN.md`](DESIGN.md) | The full system: YAML design tokens (colors for both themes, type scale, spacing, components), the rules for each part, and domain recipes for blogs, landing pages, shops, docs, dashboards and portfolios |
-| [`logo/`](logo/) | The logo: a ruled grid where one cell is the cursor, in the accent, and the next is still empty. Symbol, horizontal and stacked lockups for both themes, one-colour variants, favicon and web icons, a presentation board, and the usage rules in [`LOGO-GUIDELINES.md`](logo/LOGO-GUIDELINES.md) |
+| File                     | Contents                                                                                                                                                                                                                                                                                          |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`DESIGN.md`](DESIGN.md) | The full system: YAML design tokens (colors for both themes, type scale, spacing, components), the rules for each part, and domain recipes for blogs, landing pages, shops, docs, dashboards and portfolios                                                                                       |
+| [`logo/`](logo/)         | The logo: a ruled grid where one cell is the cursor, in the accent, and the next is still empty. Symbol, horizontal and stacked lockups for both themes, one-colour variants, favicon and web icons, a presentation board, and the usage rules in [`LOGO-GUIDELINES.md`](logo/LOGO-GUIDELINES.md) |
 
 `DESIGN.md` follows the [DESIGN.md format](https://stitch.withgoogle.com/docs/design-md/overview/):
 the front matter holds exact values that design agents and tools can read, and the body
@@ -55,14 +55,14 @@ explains how to use them.
 
 ## Quick reference
 
-| Role | Dark | Light |
-|---|---|---|
-| surface | `#141413` | `#faf9f5` |
-| surface raised | `#1a1a18` | `#f1efe8` |
-| surface panel | `#1e1d1b` | `#ece9e0` |
-| ink | `#faf9f5` | `#141413` |
-| accent | `#d97757` | `#c15f3c` (text `#a94e2f`) |
-| red · green · yellow | `#e08f8f` · `#c3e88d` · `#e5c07b` | `#a04545` · `#537126` · `#7a5d00` |
+| Role                  | Dark                              | Light                             |
+| --------------------- | --------------------------------- | --------------------------------- |
+| surface               | `#141413`                         | `#faf9f5`                         |
+| surface raised        | `#1a1a18`                         | `#f1efe8`                         |
+| surface panel         | `#1e1d1b`                         | `#ece9e0`                         |
+| ink                   | `#faf9f5`                         | `#141413`                         |
+| accent                | `#d97757`                         | `#c15f3c` (text `#a94e2f`)        |
+| red · green · yellow  | `#e08f8f` · `#c3e88d` · `#e5c07b` | `#a04545` · `#537126` · `#7a5d00` |
 | blue · cyan · magenta | `#82aaff` · `#89ddff` · `#c792ea` | `#2a60d6` · `#156f93` · `#8c46bb` |
 
 Type: Inter 400/500/600 for headlines and prose (hero 48 · xl 32 · reading 17/28 at 68ch) ·
