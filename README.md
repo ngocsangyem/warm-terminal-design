@@ -1,3 +1,7 @@
+> **Moved.** Warm Terminal is now **Nib**, and this design spec and brand live on in
+> [nib-ui/nib](https://github.com/nib-ui/nib) (`spec/DESIGN.md`, `brand/`), next to the framework
+> that implements them. This repository is archived and kept read-only for its history.
+
 <img src="logo/warm-terminal-banner.svg" alt="Warm Terminal logo: a 3×3 grid of square cells, the cursor cell in orange and the next cell still empty, beside the wordmark warm terminal, on a warm near-black banner" width="560">
 
 # Warm Terminal
